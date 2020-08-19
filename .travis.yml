@@ -5,5 +5,7 @@ deploy:
     secure: YT+Wgni8WuKNg40IHB1NmRNF2/LfwcdMSIQwAgxuvUxU3xvuMEthRkI+jawqid2QnfNq6aDx5/MXNeKdgxhomgO/doWcc5N/hpoPy0vVDiVm9yPKnGXIVAtc9r/G+tH9LQGuzA+wnkk5C5pWYvNB9Tijy9Qb7rYGKEyDmV4DavmIII/EuZZuHBcpXos4qpCCCHI5W4mIzvStds05s3+AvUdqWDSq9EOP3Z8Gq7puhRPaG3uLd3us313xlxU1OsKqTaStRVUapup1LLho3aeJL0nCMr3HwWnoE3XrdyO1h4MbLfo2mHuu24tKUSrTyYemiryx+jM6j960budLJmEy6TjHuW8jIDO5G2PDA6gYq7Hz8sQtCjDfA1agxwEczMmLjyVedP+52SwX+4U3a2NwA1fEOBUIvNRgwJpG0bMkWmb74q1PsZz8kkTMrUB1lLZG4fMJrBfrXu0NcHvLxupHud1e0sycuElzcZFYn3ViWXFziPXlHwiE+ZT9dT5hN08n1O5+Y4uuw8Qt+sShW56F7iGjeoZmCXJ1XRO7N97IdPGZfeMvMW5kTZfmzq+lbNH+fFX5I9bFROo1dGowBN7P75PnVg2ac9b8/z10uY6o9Z6xv1Dv9Y97/Kwx+kGYFrxojAde1K2vnlutT+/6nVPiB/vEXGYrHRaqYXZr5fHyALo=
   file: 'NEWGARBAGE.txt'
   on:
+    branch: master
+    tags: true
     repo: cwachowicz/travis-fix-test
   skip_cleanup: 'true'
